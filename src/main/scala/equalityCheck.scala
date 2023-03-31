@@ -48,11 +48,11 @@ object equalityCheck extends App {
   }
 
   // using eq method
-  val result1 = Try(studentOne.eq(studentTwo)) match {
+  val resultNine = Try(studentOne.eq(studentTwo)) match {
     case Success(result) => println(result)
     case Failure(exception) => false
   }
-  val result2 = Try(studentOne.eq(studentThree)) match {
+  val resultTen = Try(studentOne.eq(studentThree)) match {
     case Success(result) => println(result)
     case Failure(exception) => false
   }
