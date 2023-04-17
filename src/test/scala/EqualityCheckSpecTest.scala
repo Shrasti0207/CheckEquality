@@ -24,8 +24,15 @@ class EqualityCheckSpecTest extends AnyFunSuite{
     assert(studentOne.ne(studentThree))
   }
 
+  test("Another Test for ne method"){
+    assert(studentOne.ne(studentTwo))
+  }
+
   test("Test for eq method ") {
     assert(!studentOne.eq(studentTwo))
   }
 
+  test("Another test for eq method"){
+    assert(!studentOne.eq(studentThree))
+  }
 }
